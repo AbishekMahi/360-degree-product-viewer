@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+h1{
+	font-size: 3rem;
+	font-family:sans-serif;
+}
+#product_viewer {
+	/* max-width: 80%; */
+	padding: 0 10%;
+}
+
+#product_viewer img {
+	display: block;
+	width: 100%;
+}
